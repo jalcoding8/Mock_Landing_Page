@@ -1,0 +1,228 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic', sans-serif;
+    /*background-color: lemonchiffon;*/
+  }
+
+  .barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .header {
+    padding: 0px 0px 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+    width: 1400px;
+  }
+  
+  
+  .header li a {
+    color: #333;
+    margin:0;
+    border: 0px;
+  }
+  
+  nav {
+    display: inline-block;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    text-align: right;
+    width: 99%;
+  }
+
+  .small-image {
+     width: 24%;
+     height: 5.75em;
+     margin-bottom: -30px;
+  }
+
+  .top-container nav span a {
+    margin-right: 32px;
+    margin-left: 5px;
+    color:rgb(105, 104, 104);
+    font-size: 22px;
+    
+  }
+
+  
+  h1 {
+    font-size: 40px;
+    color: dodgerblue;
+  }
+
+  .body-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: lemonchiffon;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+  .body-container img {
+      width: 30%;
+      height: auto;
+      max-width: 100%;
+  }
+
+  /*.body-container h2 {
+    color: black;
+    margin-left: 50px;
+    text-align: center;
+  }*/
+  
+  .body {
+    margin-left: 50px;
+  }
+   
+  .container {
+    margin: 0 auto;
+    
+    
+  }
+  
+  .spacer {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .main {
+    background-color: lemonchiffon;
+  }
+  
+  
+  
+  
+  /*Jumbotron Section*/
+  .jumbotron {
+    background-color: #fff;
+    max-width: 1200px;
+    margin-left: 95px;
+  }
+  
+  .jumbotron h2 {
+    font-size: 40px;
+    padding-top: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .jumbotron h2 span {
+    color: dodgerblue;
+  }
+  
+  .jumbotron p {
+    text-shadow: 0 0;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  
+  .banner {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .cards {
+    background-color: lemonchiffon;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  #guidance {
+    padding: 20px;
+    background-color: lemonchiffon;
+    margin: 0;
+    text-align: center;
+  }
+  
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+
+  }
+
+  .image {
+    height: 270px;
+    width: 290px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    color: white;
+    filter: brightness(5.0);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;  
+    font-size: 40px;
+  }
+
+  .information {
+    border: 2px solid black;
+  }
+
+  #mission {
+      text-align: center;
+      font-size: 18px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  #team {
+      text-align: center;
+      font-size: 18px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+  }
+
+  
+
+  /*Footer Section*/
+  .footer {
+    padding: 40px 0px;
+    background-color: #000;
+    color: #fff;
+  }
+
+  
+  .footer h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    display: center;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size:12px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+
+  p.copyright {
+    margin-left: 10px;
+}
+ 
+  
