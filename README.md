@@ -1,4 +1,4 @@
-<img width="140" height="80" alt="Human anatomies depicted" src="./images/human-anatomy.jpeg"" />
+<img width="140" height="80" alt="Human anatomies depicted" src="./images/human-anatomy.jpeg"/>
 
 
 # Description   
