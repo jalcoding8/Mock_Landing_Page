@@ -7,7 +7,7 @@
 ###  **Mock Landing Page** is a Web Development Foundations project to create a Company Landing webpage using CSS Flexbox properties.
 
 ####  The thrust of the project is using flexbox to design and build the layout for a company’s homepage.
-  *  I opted to create my own mock webpage for a health and conditioning company.
+  *  I opted to create my own mock webpage for a health and conditioning company, called Health & Strength.
   *  Show some of the many CSS property design tools to layout a home page.
   *  Provide a Mission Statement, and brief information about the company.
   *  A list or set of images and titles representing the product or products of the company.
