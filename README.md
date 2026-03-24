@@ -21,7 +21,7 @@
    *  LICENSE
    *  gitignore
    *  Favicon tab image placed in root directory
-   *  <img src="" alt="An H&S for logo icon" width="50" height="50" />
+   *  <img src="health.png" alt="An H&S for logo icon" width="50" height="50" />
       
 
 ## General Information
