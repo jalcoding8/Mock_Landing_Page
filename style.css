@@ -67,12 +67,6 @@ html, body {
       height: auto;
       max-width: 100%;
   }
-
-  /*.body-container h2 {
-    color: black;
-    margin-left: 50px;
-    text-align: center;
-  }*/
   
   .body {
     margin-left: 50px;
@@ -223,6 +217,10 @@ html, body {
 
   p.copyright {
     margin-left: 10px;
-}
+ }
+
+ footer span {
+   color: blue;
+ }
  
   
