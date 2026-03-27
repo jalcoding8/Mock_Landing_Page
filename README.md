@@ -25,8 +25,7 @@
       
 
 ## General Information
-   *  This project uses HTML5 and CSS3, with an emphasis on flexbox’s advantages, such as easy horizontal and vertical positioning,
-   *  flexible element flows as the page size changes, and great styling for repeated elements.
+   *  This project uses HTML5 and CSS3, with an emphasis on flexbox’s advantages, such as easy horizontal and vertical positioning, flexible element flows as the page size  changes, and great styling for repeated elements.
    *  The README.md utilized the Markdown language syntax and includes an image of the favicon.
    *  This project was completed in Visual Studio Code, and Bash Terminal.
    * [Click here to view](https://jalcoding8.github.io/Mock_Landing_/)
