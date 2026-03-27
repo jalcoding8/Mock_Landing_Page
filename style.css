@@ -2,7 +2,6 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Amatic', sans-serif;
-    /*background-color: lemonchiffon;*/
   }
 
   .barlow-regular {
@@ -11,7 +10,7 @@ html, body {
     font-style: normal;
   }
 
-  .header {
+  .header-desktop {
     padding: 0px 0px 40px;
     margin-left: 50px;
     margin-right: 50px;
@@ -20,11 +19,14 @@ html, body {
   }
   
   
-  .header li a {
+  .header-desktop a {
     color: #333;
     margin:0;
     border: 0px;
   }
+  /*.header-desktop {
+    background-color: pink;
+  }*/
   
   nav {
     display: inline-block;
@@ -45,9 +47,56 @@ html, body {
     margin-left: 5px;
     color:rgb(105, 104, 104);
     font-size: 22px;
-    
+  }
+  
+  .logo-container-header-mobile img {
+    display: none;
   }
 
+  
+  @media screen and (max-width: 768px){
+    .logo-container-header-mobile {
+     
+      flex-direction: row;
+      justify-content: space-around;
+      height: auto;
+      /*min-height: 50px;*/
+      gap: 90px;
+      margin-left: 15px;
+      width: 50%; 
+    }
+
+    .logo-container-header-mobile img {
+      display: block;
+      width: 20%;
+      height: auto;
+      visibility: visible;
+    }
+
+    .header-desktop{
+      display: none;
+    }
+
+    .container h2 {
+      margin-right: 80px;
+      text-align: center;
+      font-size: 20%;
+    }
+  }
+  
+  @media screen and (min-width: 1824px) {
+    .header-desktop {
+      width: 100%;
+      margin-left: 1px;
+    }
+  } 
+
+  @media only screen and (max-width: 570px) {
+    .header-desktop, .top-container {
+      display: none;
+    }
+  }
+ 
   
   h1 {
     font-size: 40px;
@@ -58,6 +107,7 @@ html, body {
     display: flex;
     justify-content: space-around;
     background-color: lemonchiffon;
+    padding-left: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -91,24 +141,24 @@ html, body {
   
   
   /*Jumbotron Section*/
-  .jumbotron {
+  .jumbo {
     background-color: #fff;
     max-width: 1200px;
     margin-left: 95px;
   }
   
-  .jumbotron h2 {
+  .jumbo h2 {
     font-size: 40px;
     padding-top: 15px;
     margin-bottom: 40px;
     text-align: center;
   }
   
-  .jumbotron h2 span {
+  .jumbo h2 span {
     color: dodgerblue;
   }
   
-  .jumbotron p {
+  .jumbo p {
     text-shadow: 0 0;
     font-size: 16px;
     color: #666;
@@ -190,6 +240,43 @@ html, body {
       padding-bottom: 20px;
   }
 
+  /*@media only screen and (max-width: 570px) {
+    .top-container {
+      flex-direction: column;
+      width: 99.9%;
+      padding-top: 1px;
+      height: auto;
+    }
+  }*/
+
+    .logo-container-header-mobile {
+      display: flex;
+      height: auto;
+      justify-content: space-around;
+    }
+
+  /*@media only screen and (max-width: 480px), (orientation: landscape) {
+    body {
+      font-size: 12px;
+    }
+  }*/
+
+  @media screen and (max-resolution: 150dpi) and (max-width: 480px) {
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .col {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
   
 
   /*Footer Section*/
@@ -202,6 +289,7 @@ html, body {
   
   .footer h3 {
     font-size: 20px;
+    color: dodgerblue;
     margin-left: 20px;
     display: center;
     text-align: center;
@@ -222,5 +310,42 @@ html, body {
  footer span {
    color: blue;
  }
+
+ /* we'll see*/
+
+ .footer-section {
+   width: 100%;
+   height: 90px;
+   font-size: 14px;
+   display: flex;
+   flex-wrap: wrap;
+   background-color: whitesmoke;
+   border-top: none;
+ }
+
+ .left-footer {
+   margin-left: 10px;
+ }
+
+ .right-footer {
+   width: 30%;
+   text-decoration: none;
+   margin-left: 68%;
+   margin-right: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 10px;
+   justify-content: flex-end;
+   position: absolute;
+ }
+
+ .right-footer nav a {
+   font-size: 14px;
+   text-decoration: none;
+   margin-right: 16px;
+   gap: 20px;
+
+ }
+
  
   

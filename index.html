@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -12,47 +13,61 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="health.png" type="image/x-icon">
 
+  <title>Mock Landing Page</title>
 </head>
+
 <body>
-  <div class='header'>
+  <!--<div class='header'>-->
+  <header class="header-desktop">
     <div class='top-container'>
       <h1>Health & Strength</h1>
-      <img class="small-image" alt="Images of human form" height=80px width=100px src="./images/human-anatomy.jpeg">
+      <img class="small-image" alt="Images of human form"  src="./images/human-anatomy.jpeg">
 
 
       <nav>
-        <span><a href="#mission">Mission Statement </a></span>
+        <span><a href="#mission">What We Do</a></span>
         <span><a href="#team">Our Team</a></span>
         <span><a href="#">Contact</a></span>
-        <Span><a href="#">Reviews</a><span>
+        <span><a href="#">Reviews</a><span>
         
       </nav>
     </div>
-  </div>  
-      <div class="body-container">
-        <img src="./images/running-shoes.jpeg" alt="A pair of blue running shoes">
-        <img src="./images/dumbbells.jpeg" alt="A colorfull assortment of dumbbells">
-        <img src="./images/swim-goggles.jpeg" alt="A image of swimm goggles">
+  </header>  
+
+  <!-- Mobile screen header layout-->
+  <div class="logo-container-header-mobile">
+    <img alt="a target with an arrow in black and white" src="./images/mission-icon.png">
+    <img alt="a group of people" src="./images/stick-people-four.png">
+    <img alt="an old fashioned phone icon" src="./images/iphone-icon.png">
+    <img alt="a thumbs up in black and white" src="./images/review-icon.png">    
+  </div>
+
+
+
+  <div class="body-container">
+    <img src="./images/running-shoes.jpeg" alt="A pair of blue running shoes">
+    <img src="./images/dumbbells.jpeg" alt="A colorfull assortment of dumbbells">
+    <img src="./images/swim-goggles.jpeg" alt="An image of swimm goggles">
         
         
   
-    </div>
+  </div>
 
     
 
-  <div class='jumbotron'>
+  <div class='jumbo'>
     <div class='container'>
       <h2>Your <span>body and mind</span>
 benefit from exercise, nutrition, challenge, fresh air and rest. Day one, a week, a month, becomes a lifetime.</h2>
     </div>
   </div>
   <div class='banner'>
-    <div class='container'>
+    <div class='containerh2'>
       <h2>Start Now</h2>
       <h3>Simple goals add up to a stronger, healthier you.</h3>
     </div>
   </div>
-  <div class='container'>
+  <div class='containerh2'>
     <h2 id='guidance'>A Little Guidance</h2>
     <div class='main'>
       <div class='spacer'>
@@ -71,7 +86,7 @@ benefit from exercise, nutrition, challenge, fresh air and rest. Day one, a week
               </div>
             </div>
             <div class="image-container">
-              <img class="image" src="./images/hydration.jpeg" alt="Water for good hydration">
+              <img class="image" src="./images/water.jpeg" alt="Water for good hydration">
               <div class="overlay">
                 Stay hydrated
               </div>
@@ -125,7 +140,7 @@ benefit from exercise, nutrition, challenge, fresh air and rest. Day one, a week
   </div>
   <div class="information">
    <div id="mission">
-    <h3>Our Mission</h3>
+    <h3>What We Do</h3>
     <p>We are here for you.  Our intent is to provide you with a starting point and that little push you may need to put into action your ideas for a stronger, fitter, healthier you.  We have the experience, knowledge and practice of matching the combination of exercise/activity, nutrition, and daily habits that best fit your personal interests, general health, and goals.  The idea is to incorporate the personal assessment and suggestions into your lifestyle.  You can work up to a 10 mile hike, or an hour of pool laps and still enjoy your cookies, beer and pizza.  It's not about sacrifice but enhancing the way you spend your time and treat your body.</p>
    </div>
 
@@ -142,8 +157,22 @@ benefit from exercise, nutrition, challenge, fresh air and rest. Day one, a week
     <p>San Ma, California</p>
     <p>(555) 123 - 4567</p>
   </div>
-  <footer>
+  <!---<footer>
     <p>&copy; 2026 <span>Health & Strength</span>. All Rights Reserved.</p>
+  </footer>-->
+  <footer class="footer-section">
+    <div class="left-footer" role="presentation">
+      <p>&copy; 2026 <span>Health & Strength</span>. All rights reserved</p>
+   </div>
+
+   <div class="right-footer" role="presentation">
+       <nav class=footer-right">
+       <a href="#">Terms</a>
+       <a href="#">Privacy</a>
+       </nav>
+   </div>
+           
+
   </footer>
 </body>
 </html>
