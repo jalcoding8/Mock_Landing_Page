@@ -116,6 +116,7 @@ html, body {
       width: 30%;
       height: auto;
       max-width: 100%;
+      object-position: center;
   }
   
   .body {
