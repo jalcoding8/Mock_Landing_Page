@@ -24,9 +24,6 @@ html, body {
     margin:0;
     border: 0px;
   }
-  /*.header-desktop {
-    background-color: pink;
-  }*/
   
   nav {
     display: inline-block;
@@ -54,7 +51,7 @@ html, body {
   }
 
   
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 600px){
     .logo-container-header-mobile {
      
       flex-direction: row;
@@ -91,11 +88,25 @@ html, body {
     }
   } 
 
-  @media only screen and (max-width: 570px) {
+  @media screen and (max-width: 600px) {
     .header-desktop, .top-container {
       display: none;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .image-container .image {
+      display: flex;
+      width: 36%;
+      height: 180px;
+      position: relative;
+      align-items: center;
+      margin-left: 150px;
+      padding-bottom: 10px;
+      object-fit: inherit;
+    }
+  }
+
  
   
   h1 {
@@ -110,8 +121,9 @@ html, body {
     padding-left: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
-
+    background-size: contain;
   }
+
   .body-container img {
       width: 30%;
       height: auto;
@@ -141,7 +153,6 @@ html, body {
   
   
   
-  /*Jumbotron Section*/
   .jumbo {
     background-color: #fff;
     max-width: 1200px;
@@ -158,14 +169,6 @@ html, body {
   .jumbo h2 span {
     color: dodgerblue;
   }
-  
-  .jumbo p {
-    text-shadow: 0 0;
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 0;
-  }
-  
   
   .banner {
     background-color: #333;
@@ -206,6 +209,7 @@ html, body {
   .image {
     height: 270px;
     width: 290px;
+    padding-bottom: 20px;
   }
 
   .overlay {
@@ -241,14 +245,30 @@ html, body {
       padding-bottom: 20px;
   }
 
-  /*@media only screen and (max-width: 570px) {
-    .top-container {
-      flex-direction: column;
-      width: 99.9%;
-      padding-top: 1px;
-      height: auto;
+  @media screen and (max-width: 600px) {
+    .banner h2  {
+      font-size: 16px;
     }
-  }*/
+  }
+
+  @media screen and (max-width: 600px) {
+    .banner h3 {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .overlay {
+      font-size: 16px;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    #mission, #team {
+      font-size: 14px;
+    }
+  }
 
     .logo-container-header-mobile {
       display: flex;
@@ -256,19 +276,19 @@ html, body {
       justify-content: space-around;
     }
 
-  /*@media only screen and (max-width: 480px), (orientation: landscape) {
-    body {
-      font-size: 12px;
-    }
-  }*/
-
-  @media screen and (max-resolution: 150dpi) and (max-width: 480px) {
-    h2 {
-      font-size: 20px;
+  @media screen and (max-width: 600px) {
+    .jumbo h2 {
+      font-size: 18px;
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
+    #guidance {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
     .col {
       display: flex;
       margin-left: auto;
@@ -286,7 +306,6 @@ html, body {
     background-color: #000;
     color: #fff;
   }
-
   
   .footer h3 {
     font-size: 20px;
@@ -297,11 +316,18 @@ html, body {
   }
   
   .footer p {
-    font-size:12px;
+    font-size: 12px;
     margin-bottom: 0;
     margin-left: 20px;
     text-align: center;
   }
+
+  @media screen and (max-width: 600px) {
+    .footer h3 {
+      font-size: 14px;
+    }
+  }
+
 
 
   p.copyright {
